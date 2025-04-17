@@ -836,7 +836,8 @@ export interface ApiCategory1Category1 extends Schema.CollectionType {
   info: {
     singularName: 'category1';
     pluralName: 'category1s';
-    displayName: 'Category1';
+    displayName: 'Category5';
+    description: '';
   };
   options: {
     draftAndPublish: true;

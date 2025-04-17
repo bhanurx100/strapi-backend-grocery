@@ -4,7 +4,8 @@
   "info": {
     "singularName": "category1",
     "pluralName": "category1s",
-    "displayName": "Category1"
+    "displayName": "Category5",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,14 +16,15 @@
       "type": "string"
     },
     "icon": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "color": {
       "type": "string"
