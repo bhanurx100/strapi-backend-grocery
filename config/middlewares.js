@@ -6,11 +6,12 @@ module.exports = [
     name: 'strapi::cors',
     config: {
       origin: [
-        "http://localhost:3000", // Allow your local frontend
-        "http://localhost:1337"  // Allow the admin panel to talk to itself (if needed)
+        'http://localhost:3000', // For local frontend testing
+        'https://ytterbic-constantina-bhanurx100-894f758f.koyeb.app', // Your Koyeb URL
+        'https://your-nextjs-app.vercel.app' // Add your Vercel URL once deployed
       ],
-      methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-      headers: ["Content-Type", "Authorization"],
+      methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+      headers: ['Content-Type', 'Authorization'],
       credentials: true,
     },
   },
